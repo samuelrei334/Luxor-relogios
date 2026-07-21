@@ -4,6 +4,7 @@ import "./globals.css";
 import { CarrinhoProvider } from "@/components/CarrinhoProvider";
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
+import BarraCarrinho from "@/components/BarraCarrinho";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -41,6 +42,7 @@ export default function RootLayout({
           <Cabecalho />
           {children}
           <Rodape />
+          <BarraCarrinho />
         </CarrinhoProvider>
       </body>
     </html>
