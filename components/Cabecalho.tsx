@@ -11,10 +11,10 @@ export default function Cabecalho() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <Link href="/" className="flex items-baseline gap-2">
           <span className="font-display text-xl tracking-wide text-cream">
-            Meridian
+            luxor
           </span>
           <span className="font-mono text-[10px] uppercase tracking-widest2 text-brass">
-            Relojoaria
+            Relógios
           </span>
         </Link>
 
