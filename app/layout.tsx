@@ -23,8 +23,8 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Meridian Relojoaria",
-  description: "Relógios de precisão, direto da relojoaria para o seu pulso."
+  title: "luxor relógios",
+  description: "Relógios de precisão, direto da luxor para o seu pulso."
 };
 
 export default function RootLayout({
